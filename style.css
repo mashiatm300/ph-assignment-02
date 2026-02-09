@@ -7,3 +7,27 @@ nav{
 
 }
 
+#banner-1{
+    background-image: url(./assets/hero-bg.png) 
+}
+
+#pic-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.backg{
+    position: relative;
+    z-index: 1;
+    height: 350px;
+    width: 350px;
+}
+
+.foreg{
+    position: relative;
+    left: -235px;
+    z-index: 2;
+    width: 116.5px;
+}
