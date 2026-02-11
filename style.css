@@ -53,7 +53,7 @@ nav h1{
 
 
 
-.button-1{
+.button-1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -75,6 +75,102 @@ nav h1{
     background: linear-gradient(47.64deg , rgb(145, 0, 248, 1) , rgb(251, 9, 180, 1 ), rgb(247, 233, 63, 1));
 
 }
+
+
+/* banner starts here*/
+
+/*badge add kora lagbr*/
+
+
+#banner-1{
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scrollj;
+    background-position: center;
+
+    padding: 101px 0px 101px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#banner-1-1 {
+    position: relative;
+    width: 21.875vw;
+    height: auto;
+}
+
+
+.hero-circle {
+    position: relative;
+    z-index: 1;
+
+    height: 100%;
+    width: 100%;
+    
+}
+
+.mic {
+    position: absolute;
+    z-index: 2;
+
+
+    width: 7.1875vw;
+    height: auto;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+
+#banner-1-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    margin-top: 24px;
+}
+
+#banner-1-2 h1{
+    font-family: "Inter";
+    color: white;
+    font-style: Bold;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 73px;
+    text-align: center;
+}
+
+#banner-1-2 p{
+
+    font-family: "Inter";
+    color: white;
+    opacity: 0.8;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
 
 
