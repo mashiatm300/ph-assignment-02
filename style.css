@@ -11,7 +11,35 @@ nav{
     background-color: #1A0B2E;
 }
 
+nav h1{
 
+    margin: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#nav-logo{
+
+    background : linear-gradient(225deg , rgb(145, 0, 248, 1) , rgb(251, 9, 180, 1 ), rgb(247, 233, 63, 1));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+
+
+#nav-opt{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+
+    align-items: center;
+
+    color: white;
+    list-style-type: none;
+}
 
 
 
