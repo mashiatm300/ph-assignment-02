@@ -37,7 +37,7 @@ nav h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 2vw;
 
     list-style-type: none;
 
@@ -60,9 +60,7 @@ nav h1{
     align-items: center;
     gap: 4px;
     
-    height: 44px ;
-    width: 135px;
-    margin: 24px;
+
     padding: 12px 16px;
     border-radius: 10000px;
 
@@ -75,6 +73,16 @@ nav h1{
     background: linear-gradient(47.64deg , rgb(145, 0, 248, 1) , rgb(251, 9, 180, 1 ), rgb(247, 233, 63, 1));
 
 }
+
+nav .button-1 {
+    margin: 24px;
+}
+
+
+
+
+
+
 
 
 /* banner starts here*/
@@ -89,10 +97,11 @@ nav h1{
     background-attachment: scrollj;
     background-position: center;
 
-    padding: 101px 0px 101px 0px;
+    padding: 101px 0px 6.31%  0px;
 
     display: flex;
     flex-direction: column;
+    gap: 2.5%;
     justify-content: center;
     align-items: center;
     
@@ -166,6 +175,39 @@ nav h1{
 
 
 
+#banner-1-2-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#banner-1-2-2 .button-1 {
+    gap: 8px;
+}
+
+
+#button-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+    padding: 12px 20px;
+    border-radius: 10000px;
+    border: 1px solid #00FF88;
+
+
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #00ff88;
+    background-color: transparent;
+
+}
 
 
 
