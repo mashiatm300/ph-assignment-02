@@ -19,6 +19,7 @@ nav h1{
     font-optical-sizing: auto;
     font-style: normal;
 
+    font-size: 32px;
     line-height: 32px;
 }
 
@@ -261,7 +262,7 @@ nav .button-1 {
     color: white;
 
     font-style: Bold;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 700;
     line-height: 58px;
 }
@@ -552,6 +553,17 @@ nav .button-1 {
     line-height: 24px;
 }
 
+.green-text{
+    color: #00FF88 ;
+
+    font-family: "Inter";
+    font-style: Bold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
 
 
 #meet-the-host{
@@ -651,10 +663,9 @@ footer{
 
     display: flex;
     flex-direction: column;
-    gap: 2.5%;
+    gap: 32px;
     justify-content: center;
     align-items: center;
-    gap: 32px;
     
 }
 
@@ -667,7 +678,8 @@ footer h1{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-
+    font-size: 60px;
+    font-weight: 800;
     line-height: 32px;
 }
 
