@@ -827,10 +827,56 @@ footer p{
     /* why choose section starts here*/
 
     #why-choose{
+        gap: 16px;
+        padding: 40px 20px 40px 20px;
+    }
+
+
+    #why{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    
+    
+    .card-2{
+    gap: 16px;
+    padding: 24px;
+    border-radius: 24px;
     }
 
 
 
+    .card-2 h1{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    }
+
+
+
+    .card-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    }
+
+
+
+
+
+    #card-2-container{
+    display: grid;
+    gap: 16px;
+    grid-template-areas:
+        "headphone"
+        "device"
+        "location"
+        "flash"
+        "resources";
+}
 
 
 
