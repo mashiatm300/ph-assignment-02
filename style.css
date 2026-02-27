@@ -11,9 +11,7 @@ nav{
     background-color: #1A0B2E;
 }
 
-nav h1{
-
-    margin: 30px;
+.nav-icon{
     color: white;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -21,6 +19,7 @@ nav h1{
 
     font-size: 32px;
     line-height: 32px;
+    padding: 30px;
 }
 
 #nav-logo{
@@ -50,6 +49,7 @@ nav h1{
     line-height: 120%;
 
 
+    cursor: pointer;
 }
 
 
@@ -73,6 +73,9 @@ nav h1{
     color: white;
     background: linear-gradient(47.64deg , rgb(145, 0, 248, 1) , rgb(251, 9, 180, 1 ), rgb(247, 233, 63, 1));
 
+
+    cursor: pointer;
+
 }
 
 nav .button-1 {
@@ -80,7 +83,11 @@ nav .button-1 {
 }
 
 
-
+#menu-icon{
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
 
 
 
@@ -88,7 +95,6 @@ nav .button-1 {
 
 /* banner starts here*/
 
-/*badge add kora lagbr*/
 
 
 #banner-1{
@@ -224,6 +230,7 @@ nav .button-1 {
     color: #00ff88;
     background-color: transparent;
 
+    cursor: pointer;
 }
 
 
@@ -735,6 +742,156 @@ footer p{
     line-height: 24px;
 }
 
+
+/* media query starts here*/
+
+
+
+@media screen and (max-width: 576px ) {
+
+
+    /* nav starts here*/
+
+
+    nav{
+        gap: 41.667vw;
+    }
+
+    nav h1{
+        
+        align-self: left;
+        align-items: start;
+
+        font-size: 20px;
+    }
+
+    #nav-opt{
+        display: none;
+    }
+
+    nav .button-1{
+        display: none;
+    }
+
+    #menu-icon{
+        display: flex;
+        color: white;
+        justify-self: center;
+        align-items: center;
+        
+        padding: 18px 20px 18px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* banner starts here*/
+
+    #banner-1{
+        padding: 40px 20px 40px 20px;
+    }
+
+    #banner-1-2 h1{
+        font-size: 40px;
+    }
+
+    #banner-1-2 p{
+        font-size: 16px;
+    }
+
+
+
+
+
+    /* about the podcast section starts here*/
+
+    #about{
+        display: none;
+
+
+    }
+
+
+
+
+
+    /* why choose section starts here*/
+
+    #why-choose{
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* last banner section starts here*/
+
+    #last-banner{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* meet the host section starts here*/
+
+     #meet-the-host{
+        display: none;
+     }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* footer starts here*/
+
+     footer{
+        display: none;
+     }
+    
+}
 
 
 
