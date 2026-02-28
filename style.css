@@ -465,6 +465,14 @@ nav .button-1 {
     
 }
 
+
+
+
+/* featured subsection starts here */
+
+
+
+
 #featured {
     display: flex;
     flex-direction: column;
@@ -564,6 +572,13 @@ nav .button-1 {
 
 
 
+
+/* meet the host subsection */
+
+
+
+
+
 #meet-the-host{
     display: flex;
     flex-direction: column;
@@ -596,6 +611,13 @@ nav .button-1 {
     padding:40px;
     border-radius: 40px;
 
+}
+
+
+#alex-img{
+    width: 200px;
+    height: auto;
+    border-radius: 40px;
 }
 
 
@@ -780,12 +802,12 @@ footer p{
 
 
 
-
-
-
-
-
     /* banner starts here*/
+
+
+
+
+
 
     #banner-1{
         padding: 40px 20px 40px 20px;
@@ -801,7 +823,7 @@ footer p{
 
     .hero-circle{
         width: 200px;
-        transform: translate(-20%, 0%);
+        transform: translate(-25%, 0%);
     }
     .badge{
         top: 10%;
@@ -809,7 +831,15 @@ footer p{
     }
 
 
+
+
     /* about the podcast section starts here*/
+
+
+
+
+
+
 
     #about{
         gap: 40px;
@@ -916,17 +946,7 @@ footer p{
         "location"
         "flash"
         "resources";
-}
-
-
-
-
-
-
-
-
-
-
+    }
 
 
 
@@ -936,21 +956,19 @@ footer p{
 
 
     #last-banner{
-
         padding: 40px 20px 40px 20px;
+        gap: 60px;
     }
 
 
 
 
-    /*featured section*/
+    /*featured subsection*/
 
 
     #featured{
         gap: 24px;
-
     }
-
 
     #featured h1{
         font-size: 32px;
@@ -958,35 +976,76 @@ footer p{
         line-height: 39px;
     }
 
-
-
-
     .cards-container{
         display: flex;
         flex-direction: column;
         gap: 16px;
     }
 
-
-
-
     .cards-3{
         gap: 16px;
         border-radius: 24px;
     }
-
 
     .card-3-info{
         padding: 16px;
         
     }
 
-
-
     .video{
     border-top-left-radius: 24px;
     border-top-right-radius: 24px; ;
+    }
 
+
+
+     /* meet the host section starts here*/
+
+
+
+
+
+    #meet-the-host{
+        gap: 24px;
+        margin-top: 0px;
+    }
+
+    #meet-the-host h1{
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    #alex{
+        flex-direction: column;
+        gap: 16px;
+
+        padding: 24px;
+        border-radius: 24px;
+
+    }
+
+    #alex-img{
+    width: 150px;
+    height: auto;
+    border-radius: 40px;
+}
+
+    #alex-info{
+        align-items: center;
+        gap: 16px;
+    }
+
+
+
+    #alex-info p{
+        text-align: center;
+    }
+
+
+
+
+    .alex-info-icons{
+        gap: 8px;
     }
 
 
@@ -1000,30 +1059,16 @@ footer p{
 
 
 
-
-
-
-
-     /* meet the host section starts here*/
-
-     #meet-the-host{
-        display: none;
-     }  
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
      /* footer starts here*/
 
+
+
+
+
+
+
+     
      footer{
         display: none;
      }
