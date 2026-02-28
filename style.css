@@ -127,8 +127,8 @@ nav .button-1 {
     z-index: 1;
 
     height: 100%;
-    width: 100%;
-    
+    width: clamp(200px, calc(350/1600*100vw), 350px);
+ 
 }
 
 .mic {
@@ -136,7 +136,7 @@ nav .button-1 {
     z-index: 2;
 
 
-    width: 7.1875vw;
+    width: clamp(80px, 7.1875vw, 200px);
     height: auto;
 
     top: 50%;
@@ -177,7 +177,7 @@ nav .button-1 {
     font-family: "Inter";
     color: white;
     font-style: Bold;
-    font-size: 60px;
+    font-size: clamp(40px, calc(60/1600*100vw), 60px);
     font-weight: 800;
     line-height: 73px;
     text-align: center;
@@ -288,20 +288,18 @@ nav .button-1 {
 
 
 #about hr{
-    width: 75%;
+    width: 100%;
     border: 1px solid #ffffff;
     opacity: 0.1;
 }
 
 
 .about-2{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     justify-content: center;
     align-items: center;
-    gap: 5vw;
-
-    width: 80%;
+    grid-gap: 5vw;
 }
 
 
@@ -310,14 +308,11 @@ nav .button-1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
-    width: 240px;
+    gap: 16px;
+    width: 15vw; 
     height: 94px;
     
     color: white;
-
-    width: 100%;
 }
 
 .card-1 h1{
@@ -326,20 +321,16 @@ nav .button-1 {
     font-size: 48px;
     font-weight: 900;
     line-height: 58px;
-
     color:#00FF88 ;
 }
 
 .card-1 p{
     font-family: "Inter";
     font-style: normal;
-
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     opacity: 0.8;
-
-    
 }
 
 
@@ -808,17 +799,66 @@ footer p{
         font-size: 16px;
     }
 
-
-
+    .hero-circle{
+        width: 200px;
+        transform: translate(-20%, 0%);
+    }
+    .badge{
+        top: 10%;
+        left: 110%;
+    }
 
 
     /* about the podcast section starts here*/
 
     #about{
-        display: none;
-
-
+        gap: 40px;
+        padding: 40px 20px 40px 20px;
     }
+
+
+    .about-1{
+        width: 100%;
+    }
+
+
+    .about-1 h1{
+        font-size: 2em;
+        line-height: 39px;
+    }
+
+
+    .about-1 p{
+        line-height: 20px;
+    }
+
+
+    #about hr{
+        width: 100%;
+    }
+
+
+
+    .about-2{
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 40px 40px;
+    }
+
+
+
+    .card-1{
+       gap: 16px;
+       width: 180px; 
+       height: 84px;
+        
+       color: white;
+    }   
+
+    .card-1 h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+
 
 
 
@@ -840,7 +880,7 @@ footer p{
         text-align: center;
     }
     
-    
+
     .card-2{
     gap: 16px;
     padding: 24px;
@@ -893,10 +933,61 @@ footer p{
 
     /* last banner section starts here*/
 
+
+
     #last-banner{
-        display: none;
+
+        padding: 40px 20px 40px 20px;
     }
 
+
+
+
+    /*featured section*/
+
+
+    #featured{
+        gap: 24px;
+
+    }
+
+
+    #featured h1{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+    }
+
+
+
+
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+
+
+
+    .cards-3{
+        gap: 16px;
+        border-radius: 24px;
+    }
+
+
+    .card-3-info{
+        padding: 16px;
+        
+    }
+
+
+
+    .video{
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px; ;
+
+    }
 
 
 
